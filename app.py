@@ -7,7 +7,7 @@ from tensorflow.keras.preprocessing.image import img_to_array
 import cv2
 
 binary_model = load_model('model.keras')
-multiclass_model = load_model('my_keras_model2.keras')
+multiclass_model = load_model('c_model.keras')
 multiclass_model.summary()
 
 multiclass_class_names = ['Actinic Keratoses', 'Basal Cell Carcinoma', 'Benign Keratosis-like Lesions', 'Dermatofibroma', 'Melanoma', 'Melanocytic Nevi', 'Vascular Lesions']
